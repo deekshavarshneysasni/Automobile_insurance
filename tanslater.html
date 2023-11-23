@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Google Translate Example</title>
+</head>
+<body>
+    <p>This is some content on my website.</p>
+  <h1>Welcome to My Website</h1>
+  <div id="google_translate_element"></div>
+  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement( 
+        {pageLanguage: 'en'}, 
+        'google_translate_element');
+    }
+  </script>
+  <h1>This is google translater</h1>
+  <p>Hope you doing well</p>
+</body>
+</html>

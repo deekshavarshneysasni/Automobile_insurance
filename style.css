@@ -1,0 +1,204 @@
+body{
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    white-space: pre-line;
+}
+.main-part1{
+    width: 800px;
+    padding-left: 80px;
+}
+.main-img{
+    width: 30px;
+    height: 50px;
+}
+.main-logo{
+    display: flex;
+    white-space:nowrap;
+}
+.text{
+    margin-top: -11px;
+    margin-left: 10px;
+    font-size: large;   
+}
+hr{
+    width: 680px;
+}
+h1{
+    color: rgb(47, 46, 46);
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    color: rgb(49, 85, 99);
+    font-size: xx-large;
+}
+h6{
+    font-size: large;
+}
+h6 span{
+    color: orange;
+    font-size:large;
+}
+h5 span{
+    color: green;
+    font-size: large;
+}
+h5{
+    font-size: large;
+}
+.navbar ul li a.split {
+    float: right;
+  }
+
+footer{
+    bottom: 0px;
+    width: 100%;
+    background: rgba(225, 221, 221, 0.783);
+}
+.main-content{
+    display: flex;
+}
+.main-content .box{
+    flex-basis: 50%;
+    padding: 10px 70px;
+}
+
+.box h2{
+    color: black;
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.box .content{
+    margin: 20px 0 0 0;
+}
+.left .content p{
+    color: black;
+    text-align: justify;
+}
+.left .content .social{
+    margin: 20px 0 0 0;
+}
+.left .content .social a{
+    padding: 0 2px;
+}
+.left .content .social a span{
+    height: 40px;
+    width: 40px;
+    background: black;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.text{
+    color: black;
+}
+.email1{
+    color: black;
+}
+.facebook{
+    color: blue;
+}
+.twitter{
+    color: skyblue;
+}
+.youtube{
+    color: red;
+}
+.instagram{
+    color: violet;
+}
+.footer2{
+    color: white;
+    text-align: center;
+    background-color: rgba(194, 141, 9, 0.803);
+
+}
+.rate{
+    text-decoration: none;
+    font-weight:bold;
+    color: black;
+    font-size: 20px;
+    margin-right: 150px;
+}
+.box-1{
+    position: fixed;
+    left: 30px;
+    bottom: -400px;
+    background: white;
+    display: block;
+    width: 250px;
+    border-radius: 10px;
+    border: 2px whitesmoke solid;
+    opacity: 0;
+    transition: 1s linear;
+    padding: 20px;
+}
+.box-1.active{
+    bottom: 30px;
+    opacity: 1;
+}
+.top-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.box-1 h3{
+    font-size: 16px;
+    color: #262626;
+}
+.close-button{
+    font-size: 20px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 26px;
+    color: #616161;
+    cursor: pointer;
+}
+.close-button:hover{
+    background: #bfbfbf;
+    border-radius: 50%;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+}
+.button-1{
+    height: 35px;
+    width: 100;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+    color: #3498db;
+    transition: .3s linear;
+}
+.button-1:hover{
+    background: #3498db;
+    color: white;
+}
+#toggleDark{
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 69%;
+    margin-right: 20px;
+    transform: translate(-50%, -50%);
+}
+#img{
+    border: none;
+}   
+.follow{
+    font-weight: bold;
+}
